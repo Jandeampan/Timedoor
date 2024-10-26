@@ -1,0 +1,130 @@
+{
+  "app": {
+    "title": "Akademi Timedoor",
+    "tagline": "Memberdayakan Inovator Masa Depan",
+    "description": "Cara Seru Belajar Koding untuk Masa Depan"
+  },
+  "header": {
+    "home": "Beranda",
+    "classes": "Kelas",
+    "onlineClass": "Kelas Daring",
+    "offlineClass": "Kelas Tatap Muka",
+    "hybridClass": "Kelas Campuran",
+    "privateSessions": "Sesi Privat",
+    "groupSessions": "Sesi Kelompok",
+    "pricing": "Harga",
+    "about": "Tentang Kami",
+    "contact": "Hubungi Kami",
+    "settings": "Pengaturan"
+  },
+  "home": {
+    "title": "Akademi Koding Timedoor",
+    "subtitle": "Cara Seru Belajar Koding untuk Masa Depan"
+  },
+  "pricing": {
+    "title": "Harga",
+    "elementary": {
+      "name": "SD",
+      "price": "Rp 300.000 - Rp 600.000",
+      "period": "untuk 8 Petualangan Belajar yang Seru",
+      "features": [
+        "Tingkat Pemula",
+        "Tingkat Menengah",
+        "Tingkat Lanjut (Pengembang Game)",
+        "Tingkat Pengembang Web Junior",
+        "Tingkat Pengembang Aplikasi Junior",
+        "Literasi Digital",
+        "Perlengkapan Kelas"
+      ],
+      "cta": "Daftar Sekarang"
+    },
+    "secondary": {
+      "name": "SMP-SMA",
+      "price": "Rp 300.000 - Rp 600.000",
+      "period": "untuk 8 Sesi Koding yang Menakjubkan",
+      "features": [
+        "Tingkat Pemula",
+        "Tingkat Menengah (Pengembang Game)",
+        "Tingkat Lanjut (Pengembang Web)",
+        "Tingkat Pengembang Aplikasi",
+        "Literasi Digital",
+        "Perlengkapan Kelas"
+      ],
+      "cta": "Daftar Sekarang"
+    },
+    "adult": {
+      "name": "Dewasa",
+      "price": "Rp 300.000 - Rp 600.000",
+      "period": "per Tingkat Keterampilan Transformatif",
+      "features": [
+        "Pengembangan Web",
+        "Pengembangan Aplikasi",
+        "Pembelajaran Mesin",
+        "Literasi Digital",
+        "Literasi Keuangan"
+      ],
+      "cta": "Daftar Sekarang"
+    }
+  },
+  "about": {
+    "title": "Tentang Kami",
+    "content": [
+      "Misi Akademi Koding Timedoor adalah memberdayakan masyarakat Indonesia untuk menjadi inovator teknologi yang memiliki dampak positif bagi masa depan. Kurikulum kami memadukan keterampilan koding dengan pendidikan karakter dan literasi digital, mempersiapkan siswa untuk menciptakan teknologi dan mendorong perubahan positif dalam masyarakat.",
+      "Kami yakin bahwa siswa kami tidak hanya akan unggul dalam menciptakan teknologi inovatif tetapi juga berkontribusi dalam membangun masyarakat yang lebih baik dan berkelanjutan.",
+      "Bergabunglah dengan Akademi Koding Timedoor dan jadilah bagian dari generasi berikutnya pemimpin teknologi dan inovator sosial."
+    ]
+  },
+  "footer": {
+    "address": {
+      "title": "Alamat",
+      "content": "Jalan Tukad Yeh Aya IX No. 46, Renon, Denpasar"
+    },
+    "contact": {
+      "title": "Kontak",
+      "phone": "Telepon",
+      "instagram": "Instagram",
+      "email": "Surel"
+    },
+    "copyright": "© {year} Akademi Koding Timedoor. Hak cipta dilindungi undang-undang. Dirancang dengan ❤️ oleh Timedoor."
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "language": "Bahasa",
+    "theme": "Tema",
+    "notifications": "Notifikasi",
+    "close": "Tutup"
+  },
+  "errors": {
+    "noJavaScript": "JavaScript diperlukan untuk melihat halaman ini. Mohon aktifkan JavaScript di pengaturan peramban Anda.",
+    "loadingError": "Terjadi kesalahan saat memuat konten halaman. Silakan muat ulang halaman atau coba lagi nanti.",
+    "networkError": "Kesalahan jaringan. Silakan periksa koneksi internet Anda dan coba lagi."
+  },
+  "classes": {
+    "title": "Kelas Kami",
+    "online": {
+      "title": "Kelas Daring",
+      "description": "Belajar dari mana saja dengan kelas daring interaktif kami. Jadwal fleksibel dan instruktur ahli dalam genggaman Anda."
+    },
+    "offline": {
+      "title": "Kelas Tatap Muka",
+      "description": "Bergabunglah dengan kami secara langsung untuk pengalaman belajar praktis. Berkolaborasi dengan teman sebaya dan terima bimbingan langsung dari instruktur kami."
+    },
+    "hybrid": {
+      "title": "Kelas Campuran",
+      "description": "Nikmati fleksibilitas pembelajaran daring dan tatap muka. Dapatkan yang terbaik dari kedua dunia dengan pendekatan campuran inovatif kami."
+    }
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "form": {
+      "name": "Nama Lengkap",
+      "email": "Alamat Surel",
+      "phone": "Nomor Telepon",
+      "subject": "Subjek",
+      "message": "Pesan Anda",
+      "submit": "Kirim Pesan"
+    },
+    "success": "Terima kasih atas pesan Anda. Kami akan menghubungi Anda dalam waktu 24 jam!",
+    "error": "Maaf! Terjadi kesalahan. Silakan coba lagi atau hubungi kami secara langsung."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "short_name"                 : "Timedoor Academy",
+  "name"                       : "Timedoor Coding Academy",
+  "tagline"                    : "Empowering Future Innovators",
+  "description"                : "Fun Way to Code The Future",
+  "start_url"                  : ".",
+  "display"                    : "standalone",
+  "theme_color"                : "#ffffff",
+  "background_color"           : "#ffffff",
+  "lang"                       : "en",
+  "orientation"                : "any",
+  "categories"                 : ["education", "technology", "coding"],
+  "related_applications"       : [],
+  "prefer_related_applications": false,
+  "icons"                      : [
+    {
+      "src"  : "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type" : "image/x-icon"
+    },
+    {
+      "src"  : "/assets/img/home-timedoor.png",
+      "type" : "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src"  : "/assets/img/about.png",
+      "type" : "image/png",
+      "sizes": "64x64 32x32 24x24 16x16"
+    }
+  ],
+  "author"        : "Timedoor",
+  "keywords"      : ["coding", "academy", "education", "technology", "programming", "learning"],
+  "og:title"      : "Timedoor Coding Academy",
+  "og:description": "Fun Way to Code The Future",
+  "og:image"      : "/assets/img/og-image.jpg",
+  "og:url"        : "https://www.timedooracademy.com",
+  "twitter:card"  : "summary_large_image",
+  "twitter:site"  : "@TimedoorAcademy",
+  "scope"         : "/",
+  "dir"           : "ltr",
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7"
+}

@@ -1,0 +1,130 @@
+{
+  "app": {
+    "title": "Timedoor Academy",
+    "tagline": "Empowering Future Innovators",
+    "description": "Fun Way to Code The Future"
+  },
+  "header": {
+    "home": "Home",
+    "classes": "Classes",
+    "onlineClass": "Online Class",
+    "offlineClass": "Offline Class",
+    "hybridClass": "Hybrid Class",
+    "privateSessions": "Private Sessions",
+    "groupSessions": "Group Sessions",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "settings": "Settings"
+  },
+  "home": {
+    "title": "Timedoor Coding Academy",
+    "subtitle": "Fun Way to Code The Future"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "elementary": {
+      "name": "Elementary",
+      "price": "Rp 300,000 - Rp 600,000",
+      "period": "for 8 Exciting Learning Adventures",
+      "features": [
+        "Beginner Level",
+        "Intermediate Level",
+        "Advanced Level (Game Developer)",
+        "Junior Web Developer Level",
+        "Junior App Developer Level",
+        "Digital Literacy",
+        "Class Kit"
+      ],
+      "cta": "Register Now"
+    },
+    "secondary": {
+      "name": "Secondary",
+      "price": "Rp 300,000 - Rp 600,000",
+      "period": "for 8 Mind-Blowing Coding Sessions",
+      "features": [
+        "Beginner Level",
+        "Intermediate Level (Game Developer)",
+        "Advanced Level (Web Developer)",
+        "App Developer Level",
+        "Digital Literacy",
+        "Class Kit"
+      ],
+      "cta": "Register Now"
+    },
+    "adult": {
+      "name": "Adult",
+      "price": "Rp 300,000 - Rp 600,000",
+      "period": "per Transformative Skill Level",
+      "features": [
+        "Web Development",
+        "App Development",
+        "Machine Learning",
+        "Digital Literacy",
+        "Financial Literacy"
+      ],
+      "cta": "Register Now"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "content": [
+      "Timedoor Coding Academy's mission is to empower Indonesian society to become technology innovators who have a positive influence on the future. Our curriculum combines coding skills with character education and digital literacy, preparing students to create technology and foster positive change in society.",
+      "We believe that our students will not only excel in creating innovative technology but also contribute to building a better, more sustainable society.",
+      "Join Timedoor Coding Academy and be part of the next generation of tech leaders and social innovators."
+    ]
+  },
+  "footer": {
+    "address": {
+      "title": "Address",
+      "content": "Jalan Tukad Yeh Aya IX No. 46, Renon, Denpasar"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "Phone",
+      "instagram": "Instagram",
+      "email": "Email"
+    },
+    "copyright": "© {year} Timedoor Coding Academy. All rights reserved. Designed with ❤️ by Timedoor."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": "Notifications",
+    "close": "Close"
+  },
+  "errors": {
+    "noJavaScript": "JavaScript is required to view this page. Please enable JavaScript in your browser settings.",
+    "loadingError": "Error loading page content. Please refresh the page or try again later.",
+    "networkError": "Network error. Please check your internet connection and try again."
+  },
+  "classes": {
+    "title": "Our Classes",
+    "online": {
+      "title": "Online Classes",
+      "description": "Learn from anywhere with our interactive online classes. Flexible schedules and expert instructors at your fingertips."
+    },
+    "offline": {
+      "title": "Offline Classes",
+      "description": "Join us in-person for hands-on learning experiences. Collaborate with peers and receive personalized guidance from our instructors."
+    },
+    "hybrid": {
+      "title": "Hybrid Classes",
+      "description": "Enjoy the flexibility of both online and offline learning. Get the best of both worlds with our innovative hybrid approach."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message"
+    },
+    "success": "Thank you for your message. We'll get back to you within 24 hours!",
+    "error": "Oops! Something went wrong. Please try again or contact us directly."
+  }
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Meeting 25 - Cobee's Portfolio" />
+    <meta name="author" content="Cobee" />
+    <meta name="keywords" content="web development, coding, portfolio, Timedoor Academy" />
+    <title>Meeting 25 - Cobee's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #264653;
+        --text-light: #e0fbfc;
+        --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+
+      .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      aside {
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: var(--shadow);
+        text-align: center;
+        padding: 20px;
+        background-color: white;
+        transition: transform 0.3s ease;
+      }
+
+      aside:hover {
+        transform: translateY(-5px);
+      }
+
+      .fa-user-circle {
+        font-size: 60px;
+        color: var(--primary-color);
+        margin-bottom: 10px;
+      }
+
+      .content, article {
+        flex: 1;
+        min-width: 300px;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: var(--shadow);
+        background-color: white;
+        transition: transform 0.3s ease;
+      }
+
+      .content:hover, article:hover {
+        transform: translateY(-5px);
+      }
+
+      h1, h2, h3 {
+        color: var(--primary-color);
+        margin-top: 0;
+      }
+
+      .map-frame {
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        margin-top: 20px;
+        box-shadow: var(--shadow);
+        transition: transform 0.3s ease;
+      }
+
+      .map-frame:hover {
+        transform: scale(1.02);
+      }
+
+      .footer {
+        background-color: var(--secondary-color);
+        margin-top: 30px;
+        padding: 20px 0;
+      }
+
+      .main-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .info-top {
+        text-align: center;
+        width: 100%;
+        padding-top: 5px;
+        color: var(--text-light);
+      }
+
+      .info-center {
+        text-align: center;
+        width: 100%;
+        padding-top: 5px;
+        border-top: 1px solid var(--text-light);
+        color: var(--text-light);
+      }
+
+      .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .social-media i {
+        padding: 5px;
+        font-size: 30px;
+        color: var(--text-light);
+        transition: transform 0.3s ease;
+      }
+
+      .social-media i:hover {
+        transform: scale(1.2);
+      }
+
+      @media (max-width: 768px) {
+        .main-content {
+          flex-direction: column;
+        }
+
+        aside {
+          width: 100%;
+        }
+
+        body {
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="main-content">
+        <aside>
+          <h2>Profile</h2>
+          <i class="fas fa-user-circle" aria-hidden="true"></i>
+          <p>Cobee</p>
+        </aside>
+        <div class="content">
+          <h1>Teens Student of Timedoor Coding Academy</h1>
+          <p>
+            My name is Cobee who lives in Denpasar. I am interested in coding
+            and I want to become a Web Developer.
+          </p>
+        </div>
+        <article>
+          <h2>Cobee's Activities</h2>
+          <h3>Construct</h3>
+          <p>
+            Construct is a platform for creating 2D games by utilizing events
+            provided within the application.
+          </p>
+        </article>
+        <iframe
+          title="Timedoor Academy Location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4716.662661747814!2d106.62451104262894!3d-6.234080240176032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fdfff967de25%3A0xcb413e432a31f303!2sTimedoor%20Academy%20%7C%20Kursus%20Coding%2C%20Programming%20di%20Tangerang%2C%20Gading%20Serpong!5e0!3m2!1sen!2sid!4v1729926374702!5m2!1sen!2sid"
+          width="600"
+          height="450"
+          class="map-frame"
+          allowfullscreen=""
+          referrerpolicy="no-referrer-when-downgrade"
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="main-footer">
+        <h3 class="info-top">Cobee The Junior Programmer</h3>
+        <div class="social-media">
+          <a href="https://instagram.com" aria-label="Instagram"><i class="fab fa-instagram-square"></i></a>
+          <a href="https://twitter.com" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://facebook.com" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://mail.google.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="info-center">
+          Copyright &copy; <span id="year"></span>. Cobee. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

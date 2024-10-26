@@ -1,0 +1,13 @@
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /index.html
+Allow: /manifest.json
+
+Disallow: /private/
+Disallow: /admin/
+
+Sitemap: https://www.timedooracademy.com/sitemap.xml

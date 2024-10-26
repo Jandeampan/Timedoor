@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fun Way to Code The Future" />
+    <meta name="keywords" content="coding, academy, education, technology, programming, learning" />
+    <meta name="author" content="Timedoor" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Timedoor Coding Academy" />
+    <meta property="og:description" content="Fun Way to Code The Future" />
+    <meta property="og:image" content="/assets/img/og-image.jpg" />
+    <meta property="og:url" content="https://www.timedooracademy.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@TimedoorAcademy" />
+    <title>Loading...</title>
+    <link rel="stylesheet" href="/index.css" type="text/css">
+    <link rel="stylesheet" href="/css/app.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/assets/img/home-timedoor.png">
+    <noscript>
+      <style>
+        body > *:not(noscript) {
+          display: none;
+        }
+        noscript {
+          display: block;
+          color: red;
+          text-align: center;
+          font-size: 1.5em;
+          margin-top: 50px;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-heading"></h1>
+      <nav>
+        <ul>
+          <li><a href="#home" data-translate="header.home"></a></li>
+          <li class="dropdown">
+            <a href="#classes" class="dropbtn" data-translate="header.classes"></a>
+            <div class="dropdown-content">
+              <a href="#online-class" data-translate="header.onlineClass"></a>
+              <a href="#offline-class" data-translate="header.offlineClass"></a>
+              <a href="#hybrid-class" data-translate="header.hybridClass"></a>
+              <a href="#private-sessions" data-translate="header.privateSessions"></a>
+              <a href="#group-sessions" data-translate="header.groupSessions"></a>
+            </div>
+          </li>
+          <li><a href="#pricing" data-translate="header.pricing"></a></li>
+          <li><a href="#about" data-translate="header.about"></a></li>
+          <li><a href="#contact" data-translate="header.contact"></a></li>
+          <li><a href="#settings" data-translate="header.settings" onclick="toggleSettings()"></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <section id="home">
+        <div class="home">
+          <h1 data-translate="home.title"></h1>
+          <h3 data-translate="home.subtitle"></h3>
+          <img src="/assets/img/home-timedoor.png" alt="Timedoor" width="40%" height="auto" loading="lazy" />
+        </div>
+      </section>
+      <section id="pricing">
+        <h2 class="price" data-translate="pricing.title"></h2>
+        <div class="container">
+          <div class="tab">
+            <div class="tab-header">
+              <h2 class="name" data-translate="pricing.elementary.name"></h2>
+              <p class="price" data-translate="pricing.elementary.price"></p>
+              <span data-translate="pricing.elementary.period"></span>
+            </div>
+            <hr />
+            <ul class="list" data-translate="pricing.elementary.features"></ul>
+            <a href="#" class="btn" data-translate="pricing.elementary.cta"></a>
+          </div>
+          <div class="tab">
+            <div class="tab-header">
+              <h2 class="name" data-translate="pricing.secondary.name"></h2>
+              <p class="price" data-translate="pricing.secondary.price"></p>
+              <span data-translate="pricing.secondary.period"></span>
+            </div>
+            <hr />
+            <ul class="list" data-translate="pricing.secondary.features"></ul>
+            <a href="#" class="btn" data-translate="pricing.secondary.cta"></a>
+          </div>
+          <div class="tab">
+            <div class="tab-header">
+              <h2 class="name" data-translate="pricing.adult.name"></h2>
+              <p class="price" data-translate="pricing.adult.price"></p>
+              <span data-translate="pricing.adult.period"></span>
+            </div>
+            <hr />
+            <ul class="list" data-translate="pricing.adult.features"></ul>
+            <a href="#" class="btn" data-translate="pricing.adult.cta"></a>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about">
+          <div>
+            <h2 data-translate="about.title"></h2>
+            <p data-translate="about.content.0"></p>
+            <p data-translate="about.content.1"></p>
+            <p data-translate="about.content.2"></p>
+          </div>
+          <div class="image-about">
+            <img src="/assets/img/about.png" alt="About Us" width="450" height="auto" loading="lazy" class="about-us" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3 data-translate="footer.address.title"></h3>
+          <address data-translate="footer.address.content"></address>
+        </div>
+        <div class="footer-section">
+          <h3 data-translate="footer.contact.title"></h3>
+          <p><span data-translate="footer.contact.phone"></span>: <a href="tel:+62881467792">+62 881 4677923</a></p>
+          <p><span data-translate="footer.contact.instagram"></span>: <a href="https://www.instagram.com/timedooracademy" target="_blank" rel="noopener noreferrer">@timedooracademy</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-translate="footer.copyright"></p>
+      </div>
+    </footer>
+
+    <div id="settings-modal" class="modal">
+      <div class="modal-content">
+        <h2 data-translate="settings.title"></h2>
+        <label for="language-select" data-translate="settings.language"></label>
+        <select id="language-select" onchange="changeLanguage(this.value)">
+          <option value="en">English</option>
+          <option value="id">Bahasa Indonesia</option>
+        </select>
+        <button onclick="closeSettings()" data-translate="settings.close"></button>
+      </div>
+    </div>
+
+    <script>
+      let currentLang = 'en';
+      let translations = {};
+      let manifest = {};
+
+      function loadTranslations(lang) {
+        fetch(`/assets/lang/${lang}.json`)
+          .then(response => response.json())
+          .then(data => {
+            translations = data;
+            updateContent();
+          })
+          .catch(error => console.error('Error loading translations:', error));
+      }
+
+      function updateContent() {
+        document.querySelectorAll('[data-translate]').forEach(element => {
+          const key = element.getAttribute('data-translate');
+          const translation = key.split('.').reduce((obj, i) => obj[i], translations);
+          if (element.tagName === 'UL') {
+            element.innerHTML = translation.map(item => `<li>${item}</li>`).join('');
+          } else {
+            element.innerHTML = translation;
+          }
+        });
+
+        document.title = `${translations.app.title} | ${translations.app.tagline}`;
+        document.querySelector('.header-heading').textContent = translations.app.title;
+        
+        const currentYear = new Date().getFullYear();
+        const copyright = translations.footer.copyright.replace('{year}', currentYear);
+        document.querySelector('.footer-bottom p').innerHTML = copyright;
+
+        document.documentElement.lang = currentLang;
+      }
+
+      function toggleSettings() {
+        const modal = document.getElementById('settings-modal');
+        modal.style.display = modal.style.display === 'block' ? 'none' : 'block';
+      }
+
+      function closeSettings() {
+        document.getElementById('settings-modal').style.display = 'none';
+      }
+
+      function changeLanguage(lang) {
+        currentLang = lang;
+        loadTranslations(lang);
+        closeSettings();
+      }
+
+      window.addEventListener('DOMContentLoaded', (event) => {
+        fetch('/manifest.json')
+          .then(response => response.json())
+          .then(data => {
+            manifest = data;
+            currentLang = data.lang || 'en';
+            loadTranslations(currentLang);
+            document.getElementById('language-select').value = currentLang;
+          })
+          .catch(error => {
+            console.error('Error fetching manifest:', error);
+            document.body.innerHTML = '<h1 data-translate="errors.loadingError"></h1>';
+          });
+      });
+    </script>
+
+    <script type="module" src="/js/app.js" defer></script>
+
+    <noscript>
+      <p data-translate="errors.noJavaScript"></p>
+    </noscript>
+  </body>
+</html>

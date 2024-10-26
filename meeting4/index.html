@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Countries and Currencies</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Countries and Currencies</h1>
+        <div class="currency-control">
+            <span class="money-amount"></span>
+            <span class="current-currency">USD</span>
+            <input type="number" class="currency-input" placeholder="Enter amount...">
+            <select class="currency-select">
+                <option value="USD">USD</option>
+                <option value="IDR">IDR</option>
+                <option value="CNY">CNY</option>
+                <option value="JPY">JPY</option>
+                <option value="VND">VND</option>
+            </select>
+            <button type="button" class="convert">Convert</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Country Details</th>
+                    <th colspan="2">Currency Details</th>
+                    <th colspan="2">Amount Details</th>
+                </tr>
+                <tr>
+                    <th>Country Name</th>
+                    <th>Country Code</th>
+                    <th>Currency Name</th>
+                    <th>Currency Code</th>
+                    <th>Amount</th>
+                    <th>Conversion Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Indonesia</td>
+                    <td>ID</td>
+                    <td>Rupiah</td>
+                    <td>IDR</td>
+                    <td class="amount"></td>
+                    <td class="conversion"></td>
+                </tr>
+                <tr>
+                    <td>United States</td>
+                    <td>US</td>
+                    <td>Dollar</td>
+                    <td>USD</td>
+                    <td class="amount"></td>
+                    <td class="conversion"></td>
+                </tr>
+                <tr>
+                    <td>China</td>
+                    <td>CN</td>
+                    <td>Yuan</td>
+                    <td>CNY</td>
+                    <td class="amount"></td>
+                    <td class="conversion"></td>
+                </tr>
+                <tr>
+                    <td>Japan</td>
+                    <td>JP</td>
+                    <td>Yen</td>
+                    <td>JPY</td>
+                    <td class="amount"></td>
+                    <td class="conversion"></td>
+                </tr>
+                <tr>
+                    <td>Vietnam</td>
+                    <td>VN</td>
+                    <td>Dong</td>
+                    <td>VND</td>
+                    <td class="amount"></td>
+                    <td class="conversion"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
